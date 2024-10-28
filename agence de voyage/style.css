@@ -1,0 +1,98 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.logo img {
+    margin: 1rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 120px;
+    border: 2px solid rgb(52, 104, 201);
+}
+
+.navbar-links ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+
+.navbar-links ul li a:hover {
+    background-color: blue;
+}
+
+.image {
+    height: 60px;
+    width: 60px;
+}
+
+.sary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.text {
+    background-image: url(image/arriere\ plan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+    color: white;
+    text-align: center;
+    height: 500px;
+    padding: 20px;
+
+}
+.containers{
+    
+}
+
+h1 {
+    font-size: 80px;
+    color: blue;
+    margin-left: 200px;
+    display: flex;
+}
+
+img {
+    position: relative;
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+
+}
+
+.page {
+    display: flex;
+}
+
+.titre2 {
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
