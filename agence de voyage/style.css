@@ -96,3 +96,94 @@ p {
     margin-left: 70px;
     margin-right: 70px;
 }
+header{
+    background-color:black;
+    align-items: center;
+    display: flex;
+    border: 100px;
+    padding: 5rem;
+    padding-left: 2rem;
+    color: aliceblue;
+    
+}
+.align{
+    display: inline-flex;
+}
+
+.align2{
+    margin-left: 15rem;
+}
+h1{
+    margin-left: 12rem;
+}
+.droit{
+    margin-left: 72rem;
+}
+.droit1{
+    margin-left: 50rem;
+}
+.image1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.image2{
+   width:200px;
+   height: 200px;
+   border-radius: 100px;
+}
+
+.divimage{
+    padding: 5rem;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.divimage2{
+    margin-left: 50rem;
+}
+.divimage24{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chutte_deau{
+  width: 812px;
+  height: 812px;
+}
+.pont{
+    width: 812px;
+    height: 812px;
+}
+.divimage25{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+footer{
+    background-color: black;
+    padding: 2rem ;
+    color: aqua;
+   
+
+}
+.pied{
+    display: flex; 
+    justify-content:space-around;
+    
+}
+li{
+    list-style-type: none;
+    padding: 1rem;
+}
+li :hover{
+    color: brown;
+    list-style-type: none;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+h5{
+    font-size: 2rem;
+}
