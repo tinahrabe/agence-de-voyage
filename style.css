@@ -6,7 +6,7 @@
     color: blanchedalmond;
 }
 
-.logo h2{
+.logo h2 {
     display: inline;
     position: relative;
     top: -50px;
@@ -40,6 +40,7 @@
     display: block;
     padding: 1rem;
 }
+
 .navbar-links ul li a:hover {
     text-decoration: none;
     color: white;
@@ -50,6 +51,7 @@
     color: blue;
     border-radius: 5px;
 }
+
 .text {
     background-image: url('photo/plan.jpg');
     background-repeat: no-repeat;
@@ -63,16 +65,15 @@
 
 
 }
-.text h1{
+
+.text h1 {
     background: linear-gradient(to right, red, blue);
     -webkit-background-clip: text;
-    background-color: transparent;
     color: transparent;
     font-size: 70px;
-} 
-.containers{
-    
 }
+
+.containers {}
 
 .page {
     display: flex;
@@ -80,24 +81,27 @@
     justify-content: space-between;
     padding: 25px;
 }
-.page article{
+
+.page article {
     font-size: 12px;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .titre2 {
     font-size: 50px;
     color: black;
     font-family: cursive;
-    
+
 }
-.page img{
-    
+
+.page img {
+
     height: 500px;
     width: 500px;
     margin-right: 30px;
     border-radius: 5px;
-    
+
 
 }
 
@@ -105,7 +109,8 @@
 * {
     font-family: verdana;
 }
-section{
+
+section {
     background-color: rgb(39, 39, 39);
 }
 
@@ -141,13 +146,16 @@ section{
     font-family: cursive;
 }
 
-.sect{
+.sect {
     background-color: white;
 }
-.lists{
+
+.lists {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     margin-left: 30px;
+<<<<<<< HEAD
     padding-left: 10px;
 }
 header{
@@ -264,3 +272,71 @@ li :hover{
 h5{
     font-size: 2rem;
 }
+=======
+}
+
+.lists a {
+    padding: 10px;
+}
+
+.corps {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(photo/arrier\ plan3.jpg);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px red;
+    width: 300px;
+
+}
+
+.contact-form h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(11, 194, 148);
+    font-family: cursive;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(247, 242, 242);
+    font-size: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(18, 169, 189, 0.836);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+}
+
+.contact-form button:hover {
+    background-color: rgb(25, 0, 255);
+}
+>>>>>>> 7da2330198aa9c79d9f445127ff62e631b031d04
